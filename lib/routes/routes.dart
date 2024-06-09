@@ -32,7 +32,7 @@ class AppRouting {
     });
 
     appRoute.addAll({
-      "SearchScreen":(BuildContext context) => const SearchScreen()
+      "searchScreen":(BuildContext context) => const SearchScreen()
     });
 
     return appRoute;
