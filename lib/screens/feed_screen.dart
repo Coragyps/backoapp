@@ -177,7 +177,8 @@ class _FeedScreenState extends State<FeedScreen> {
                 );
 
               },
-            )
+            ),
+            const SizedBox(height: 10),
 
         ],
       ),

@@ -1,3 +1,4 @@
+import 'package:backoapp/models/product_model.dart';
 import 'package:backoapp/screens/detailed_screen.dart';
 import 'package:backoapp/screens/feed_screen.dart';
 import 'package:backoapp/screens/home_screen.dart';
@@ -12,7 +13,10 @@ class AppRouting {
     Map<String, Widget Function(BuildContext)> appRoute = {};
 
     appRoute.addAll({
-      "detailedScreen":(BuildContext context) => const DetailedScreen()
+      "detailedScreen":(BuildContext context) {
+        final Product product = ModalRoute.of(context)!.settings.arguments as Product;
+        return DetailedScreen(product: product);
+      }
     });
 
     appRoute.addAll({
