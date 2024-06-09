@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "964183586377",
+    "project_id": "backoapp",
+    "storage_bucket": "backoapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964183586377:android:9121c112879d6db32df198",
+        "android_client_info": {
+          "package_name": "com.example.backoapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXvHoUFHmcX_0yV2gIEJG7jBCilzphypk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

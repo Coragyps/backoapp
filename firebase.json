@@ -1,0 +1,1 @@
+{"flutter":{"platforms":{"android":{"default":{"projectId":"backoapp","appId":"1:964183586377:android:9121c112879d6db32df198","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"backoapp","configurations":{"android":"1:964183586377:android:9121c112879d6db32df198","ios":"1:964183586377:ios:af6036e571db0c492df198"}}}}}}
